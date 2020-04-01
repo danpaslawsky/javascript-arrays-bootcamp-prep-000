@@ -29,8 +29,9 @@ function accessElementInArray(array, index){
  }  
  
  function removeElementFromBeginningOfArray(array){
-   array.slice();
-   return array;
+   var newArray = array
+   newArray.slice(1);
+   return newArray;
  }
  
   
