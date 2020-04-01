@@ -20,12 +20,10 @@ function destructivelyAddElementToEndOfArray(array, element){
 }   
 
 function accessElementInArray(array, index){
-  //var numbers = array;
   return array[index];
 }
  
  function destructivelyRemoveElementFromBeginningOfArray(array){
-   //var newArray = array;
    array.shift();
    return array;
  }  
