@@ -35,7 +35,9 @@ function accessElementInArray(array, index){
 function destructivelyRemoveElementFromEndOfArray(array){
    array.pop(0, array.length -1);
    return array;
-}  
+} 
+
+
  
    
    
