@@ -28,6 +28,8 @@ function accessElementInArray(array, index){
    var newArray = array;
    return array.shift();
  }  
+ 
+ 
    
    
    
