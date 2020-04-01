@@ -30,8 +30,7 @@ function accessElementInArray(array, index){
  
  function removeElementFromBeginningOfArray(array){
    array.slice(1);
-   var newArray = array;
-   return newArray;
+   return array;
  }
  
   
