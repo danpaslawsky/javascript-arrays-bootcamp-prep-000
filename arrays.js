@@ -33,7 +33,7 @@ function accessElementInArray(array, index){
  }
  
 function destructivelyRemoveElementFromEndOfArray(array){
-  array.slice(0, array.length -1);
+   return array.shift(0, array.length -1);
 }  
  
    
