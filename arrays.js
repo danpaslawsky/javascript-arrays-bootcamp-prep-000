@@ -23,7 +23,10 @@ function accessElementInArray(array, index){
   var numbers = array;
   return numbers[index];
 }
+ 
+ function destructivelyRemoveElementFromBeginningOfArray(){
    
+ }  
    
    
    
