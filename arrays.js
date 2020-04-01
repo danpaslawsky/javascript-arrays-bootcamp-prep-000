@@ -21,7 +21,7 @@ function destructivelyAddElementToEndOfArray(array, element){
 
 function accessElementInArray(array, index){
   var numbers = array;
-  return numbers;
+  return numbers[index];
 }
    
    
